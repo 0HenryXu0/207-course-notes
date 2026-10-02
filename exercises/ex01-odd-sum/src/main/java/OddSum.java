@@ -27,7 +27,7 @@ public class OddSum {
      */
     public static int oddSum(int[] arr) {
         int sum = 0;
-        for (int i = 2; i < arr.length; i+=2) {
+        for (int i = 1; i < arr.length; i+=2) {
             sum += arr[i];
         }
         return sum;
